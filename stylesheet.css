@@ -1,0 +1,80 @@
+* {
+padding: 0;
+margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+/* Fonts */
+
+.titleFont {
+    font-family: 'Bungee Inline', cursive;
+}
+.bodyFont {
+    font-family: 'Cinzel', serif;
+}
+.bboyFont {
+    font-family: 'Rock Salt', cursive;
+}
+
+/* Styling Classes */
+
+.smallText {
+    font-size: 10px;
+}
+.mediumText {
+    font-size: 25px;
+}
+.largeText {
+    font-size: 30px;
+}
+.whiteText {
+    color: #ffffff;
+}
+.silverText {
+    color: #C0C0C0;
+}
+.blackText {
+    color: #000000;
+}
+.nickelText {
+    color: #727272;
+}
+
+/* BG AND TEXT STYLING*/
+
+.bg {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 100%
+}
+
+h2 {
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+
+h2 span {
+   color: white;
+   font-size: 50px;  
+   letter-spacing: -1px;  
+   background: rgb(0, 0, 0); 
+   background: rgba(0, 0, 0, 0.5);
+   padding: 10px; 
+   position: relative;
+}
+
+#info {
+    color: white;
+    font-family: 'Cinzel', serif;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5);
+}
